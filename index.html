@@ -5,47 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pinterඞst</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="grillo.css">
+    <link rel="stylesheet" href="Contenido.css">
+    <link rel="stylesheet" href="Barra de Navegacion.css">
+    <link rel="icon" href="https://s.pinimg.com/webapp/favicon-56d11a6a.png">
 </head>
 <body>
 
 <!-- Barra de Navegación -->
 
-    <div class="Barra">
-        <button id="PinBut">
+    <nav class="navbar-pinterest">
+        <a href=" https://www.pinterest.com" class="PinBut">
             <img src="Im2/PinLog.png" alt="Pinterest Logo" id="PinLog">
-        </button>
+        </a>
         <button id="Inicio">Inicio</button>
         <Button id="Hoy">Hoy</Button>
         <Button id="Crear">Crear ▼</Button>
         <div class="Buscador">
             <img src="Im2/Lupa.png" alt="Lupa" id="Lupa">
-            <input type="text" placeholder="Buscar" id="Buscar">
+            <input type="text" placeholder="Buscar" id="finder">
         </div>
-        <button id="CamBut">
+        <div class="notifications">
+            <button id="CamBut">
                 <img src="Im2/Bell.png" alt="Campana" id="Campana">
-        </button>
-        <button id="ComBut">
-            <img src="Im2/Com.png" alt="Camentario" id="Comentario">
-        </button>
-        <Button id="Letra">C</Button>
+            </button>
+        </div>
+        <div class="message">
+            <button id="ComBut">
+                <img src="Im2/Com.png" alt="Camentario" id="Comentario">
+            </button>
+        </div>
+        <div class="profile-img">
+            <Button id="Letra">C</Button>
+        </div>
         <button id="FleBut">
             <img src="Im2/Flecha.png" alt="Flecha" id="Flecha">
         </button>
-    </div>
+    </nav>
 
 
 <!-- Aquí empieza el contenido -->
 
 
-    <div class="Contenedor">
-        <img src="Im1/Among01.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among02.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among03.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among04.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among05.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among06.jpg" alt="Amongus" class="imagen" id="Im06">
+    <main class="Content">
+        <img src="Im1/F01.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F02.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F02.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F03.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F04.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F05.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F06.jpg" alt="CDMX" class="card-image" id="Im06">
         <div class="todo-texto">
             <p class="PName">anuma</p>
             <div class="texto">
@@ -53,31 +61,22 @@
                 <p class="tex">El Jajas</p>
             </div>
         </div>  
-        <img src="Im1/Among07.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among08.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among09.jpg" alt="Amongus" class="imagen">
-        <div class="todo-texto">
-            <p class="PName">La banda norteña, los carros del año</p>
-        </div>
-        <img src="Im1/Among10.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among11.jpg" alt="Amongus" class="imagen">
+        <img src="Im1/F07.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F08.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F09.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F10.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F11.jpg" alt="CDMX" class="card-image">
         <div class="todo-texto">
             <p class="PName">Directo al corazón</p>
         </div>
-        <img src="Im1/Among12.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among13.jpg" alt="Amongus" class="imagen">
+        <img src="Im1/F12.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F13.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F14.jpg" alt="CDMX" class="card-image">
         <div class="todo-texto">
             <p class="PName">Oh capitán, mi capitán</p>
         </div>
-        <img src="Im1/Among14.jpg" alt="Amongus" class="imagen">
-        <div class="todo-texto">
-            <p class="PName">Maravillosa expresión</p>
-            <div class="texto">
-                <img src="Im2/Icono.png" alt="Icono" class="ico">
-                <p class="tex">Martinillo</p>
-            </div>
-        </div> 
-        <img src="Im1/Among15.jpg" alt="Amongus" class="imagen">
+        <img src="Im1/F15.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F16.jpg" alt="CDMX" class="card-image">
         <div class="todo-texto">
             <p class="PName">muy uwu</p>
             <div class="texto">
@@ -85,19 +84,34 @@
                 <p class="tex">Rayita uwu</p>
             </div>
         </div> 
-        <img src="Im1/Among16.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among17.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among18.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among19.jpg" alt="Amongus" class="imagen">
+        <img src="Im1/F17.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F18.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F19.jpg" alt="CDMX" class="card-image">
         <div class="todo-texto">
             <p class="PName">Sorpresas te da la vida</p>
         </div>
-        <img src="Im1/Among20.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among21.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among22.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among23.jpg" alt="Amongus" class="imagen">
-        <img src="Im1/Among24.jpg" alt="Amongus" class="imagen">
-    </div>
+        <img src="Im1/F20.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F21.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F22.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F23.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F24.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F25.jpg" alt="CDMX" class="card-image">
+        <div class="todo-texto">
+            <p class="PName">Maravillosa expresión</p>
+            <div class="texto">
+                <img src="Im2/Icono.png" alt="Icono" class="ico">
+                <p class="tex">Martinillo</p>
+            </div>
+        </div> 
+        <img src="Im1/F26.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F27.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F28.jpg" alt="CDMX" class="card-image">
+        <img src="Im1/F29.jpg" alt="CDMX" class="card-image">
+        <div class="todo-texto">
+            <p class="PName">La banda norteña, los carros del año</p>
+        </div>
+        <img src="Im1/F30.jpg" alt="CDMX" class="card-image">
+    </main>
 
 <!-- Carga -->
 
@@ -106,4 +120,5 @@
     </div>
 
 </body>
+
 </html>
